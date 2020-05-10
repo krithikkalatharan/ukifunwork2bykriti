@@ -1,0 +1,85 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+}
+
+.lol{
+   background:url("https://cdn.glitch.com/abe1d86c-9c8f-4c9c-8013-ff3c217f71ae%2F69.jpg?v=1589143783264") no-repeat center; 
+  padding-left: 50px;
+}
+
+h1 {
+  font-style: italic;
+  color: #099268;
+  padding-left: 50px;
+}
+
+.bold {
+  font-weight: bold;
+  
+}
+
+p {
+  max-width: 600px;
+  padding-left: 50px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #79fbd4;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
